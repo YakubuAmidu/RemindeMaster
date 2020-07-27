@@ -13,6 +13,11 @@ class App extends Component {
       placeholder="I hav to..."
       />
       </div>
+      <button
+      className="btn btn-success"
+      type="button">
+       Add Reminder
+       </button>
       </div>
        </div>
     )
