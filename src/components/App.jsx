@@ -79,6 +79,7 @@ class App extends Component {
       >
       Clear Reminders
        </div>
+       </div>
     )
   }
 }
