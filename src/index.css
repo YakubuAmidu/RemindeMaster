@@ -23,6 +23,6 @@ input {
 }
 
 .delete-button {
-  float: left;
+  float: right;
   padding-left: 5px;
 }
