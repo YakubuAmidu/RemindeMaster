@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addReminder } from '../actions';
+import { addReminder, deleteReminder } from '../actions';
 
 class App extends Component {
  constructor(props){
@@ -67,4 +67,4 @@ return {
 }
 }
 
-export default connect(mapStateToProps,  { addReminder }) (App);
+export default connect(mapStateToProps,  { addReminder, deleteReminder }) (App);
