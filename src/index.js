@@ -6,7 +6,7 @@ import { createStore } from 'redux';
 
 const store = createStore();
 
-<Provider>
+<Provider store={store}>
 <App />
 </Provider>,
  document.getElementById('root'))
