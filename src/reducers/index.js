@@ -1,4 +1,4 @@
-import { ADD_REMINDER, DELETE_REMINDER } from '../constants';
+import { ADD_REMINDER, DELETE_REMINDER, CLEAR_REMINDERS } from '../constants';
 import { bake_cookie, read_cookie } from 'sfcookies';
 
 const reminder = (action) => {
@@ -27,7 +27,12 @@ const reminders = (state = [], action) => {
     return reminders;
     case DELETE_REMINDER:
      reminders = removeById(state, action.id);
+     bake_cookie('reminder', reminders);
      return reminder;
+     case CLEAR_REMINDERS:
+     reminders = [];
+     bake_cookie('reminders', reminders);
+     return reminders;
     default:
      return state;
   }
