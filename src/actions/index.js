@@ -6,5 +6,5 @@ export const addReminder = (text) => {
   text
 }
 console.log('action in addReminder', action);
-return action
+return action;
 }
