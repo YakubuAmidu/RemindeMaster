@@ -52,6 +52,7 @@ class App extends Component {
        Add Reminder
        </button>
       </div>
+      { this.renderReminders() }
        </div>
     )
   }
