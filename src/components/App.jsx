@@ -22,7 +22,10 @@ class App extends Component {
              reminders.map(reminder => {
                return (
                  <li key={reminder.id} className="list-group-item">
-                    <div>{reminder.text}</div>
+                    <div className="list-item">{reminder.text}</div>
+                    <div className="list-item delete-button">
+                      &#x2715;
+                    </div>
                  </li>
                )
              })

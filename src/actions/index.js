@@ -8,3 +8,9 @@ export const addReminder = (text) => {
 console.log('action in addReminder', action);
 return action;
 }
+
+export const deleteReminder = (id) => {
+ const action = {
+   
+ }
+}
