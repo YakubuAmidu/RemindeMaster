@@ -43,7 +43,7 @@ class App extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ addReminder}, dispatch);
+  return bindActionCreators({addReminder}, dispatch);
 }
 
 export default connect(null, mapDispatchToProps) (App);
