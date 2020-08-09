@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RemiderMaster/static/css/main.e5fffe9b.chunk.css",
+    "main.js": "/RemiderMaster/static/js/main.e4105319.chunk.js",
+    "main.js.map": "/RemiderMaster/static/js/main.e4105319.chunk.js.map",
+    "runtime-main.js": "/RemiderMaster/static/js/runtime-main.ab399d05.js",
+    "runtime-main.js.map": "/RemiderMaster/static/js/runtime-main.ab399d05.js.map",
+    "static/js/2.58f8cea9.chunk.js": "/RemiderMaster/static/js/2.58f8cea9.chunk.js",
+    "static/js/2.58f8cea9.chunk.js.map": "/RemiderMaster/static/js/2.58f8cea9.chunk.js.map",
+    "index.html": "/RemiderMaster/index.html",
+    "precache-manifest.c8bfd8eb4576b0dcd47c7eb39b37e006.js": "/RemiderMaster/precache-manifest.c8bfd8eb4576b0dcd47c7eb39b37e006.js",
+    "service-worker.js": "/RemiderMaster/service-worker.js",
+    "static/css/main.e5fffe9b.chunk.css.map": "/RemiderMaster/static/css/main.e5fffe9b.chunk.css.map",
+    "static/js/2.58f8cea9.chunk.js.LICENSE.txt": "/RemiderMaster/static/js/2.58f8cea9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab399d05.js",
+    "static/js/2.58f8cea9.chunk.js",
+    "static/css/main.e5fffe9b.chunk.css",
+    "static/js/main.e4105319.chunk.js"
+  ]
+}
